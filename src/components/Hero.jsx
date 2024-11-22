@@ -1,4 +1,4 @@
-function Hero(completed, total) {
+function Hero({ completed, total }) {
   return (
     <section>
       <div>

@@ -5,7 +5,7 @@ function Item(item) {
         <svg>
           <circle cx="11.998" cy="11.998" fillRule="nonzero" r="9.998" />
         </svg>
-        <p>{item?.title}</p>
+        <p>{item.title}</p>
       </button>
       <div className="item_right">
         <button>
