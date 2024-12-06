@@ -1,13 +1,14 @@
-function Hero({ completed, total }) {
+function Hero({ todos_completed, total_todos }) {
+  console.log(todos_completed, total_todos);
   return (
     <section>
       <div>
         <p>
-          Completed {completed} from {total}
+          Completed {todos_completed} from {total_todos}
         </p>
       </div>
       <div>
-        {completed}/{total}
+        {todos_completed}/{total_todos}
       </div>
     </section>
   );

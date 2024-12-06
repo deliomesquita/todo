@@ -2,7 +2,7 @@ import Item from "./Item";
 
 function List({ todos }) {
   return (
-    <ol className="list">
+    <ol className="todo_list">
       {todos && todos.length > 0 ? (
         todos.map((item, index) => <Item key={index} item={item} />)
       ) : (
