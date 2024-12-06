@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Form from "./components/Form";
 import List from "./components/List";
 import { useState } from "react";
-// import "./style/styles.css";
+import "./style/styles.css";
 
 function App() {
   const [todos, setTodos] = useState([
